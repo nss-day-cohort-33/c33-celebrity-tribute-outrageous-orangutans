@@ -1,0 +1,14 @@
+.intro {
+    border-style: solid;
+    border-color: black;
+    background-color: gray;
+}
+
+.skills {
+    border-style: dotted;
+    border-color: gold;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    flex-basis: grow;
+}
