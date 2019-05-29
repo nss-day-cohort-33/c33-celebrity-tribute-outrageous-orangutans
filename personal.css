@@ -1,7 +1,20 @@
-nav ul {
-    display: flex;
-    flex-direction: row;
-    
 
-    
+.navLink{
+    display: flex;
+    /* flex-direction: row; */
+    width: 200px;
+    height: 50px; 
+}
+
+.navLink li a {
+    flex-direction: row;
+    min-width: 100px;
+    height: 50px;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
