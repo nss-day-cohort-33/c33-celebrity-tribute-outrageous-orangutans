@@ -30,17 +30,10 @@ ul:first-child {
     width: 100%;
   }
 
-.intro {
-    border-radius: 10px;
-    background: black;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
 
 .wrestling {
     border-radius: 10px;
-    background: lightblue;
+    background:rgb(173,216,230,.8);
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -48,7 +41,6 @@ ul:first-child {
 
 .skills {
     border-radius: 10px;
-    background: black;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -56,7 +48,7 @@ ul:first-child {
 
 .ulskills {
     border-radius: 10px;
-    background: lightblue;
+    background: rgb(173,216,230,.8);;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -66,13 +58,12 @@ ul:first-child {
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
-    background: lightblue;
+    background: rgb(173,216,230,.8);;
     border-radius: 10px;
 }
 
 .works {
     border-radius: 10px;
-    background: black;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -84,13 +75,12 @@ ul:first-child {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-content: flex-end;
-    background: lightblue;
+    background: rgb(173,216,230,.8);;
     border-radius: 10px;
 }
 
 .lived {
     border-radius: 10px;
-    background: black;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;  
@@ -116,35 +106,41 @@ h1 {
     padding: 35px 20px;
 }
 
+.plived {
+    background: gray;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
 body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTtuXrS2TIlxj9OD6GjqfjOx1y8e7H61MSBqZPREQog-CndtW-VA");
+    background-image: url("https://thenypost.files.wordpress.com/2017/05/170512-money-feature.jpg?quality=90&strip=all");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .collaborators {
     border-radius: 10px;
-    background: black;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 
 .ulcollaborators {
-    background: lightblue;
+    background: rgb(173,216,230,.8);;
     border-radius: 10px;
     padding: 6px 10px;
 }
 
 .awards {
     border-radius: 10px;
-    background: black;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 
 .ulawards {
-    background: lightblue;
+    background: rgb(173,216,230,.8);;
     border-radius: 10px;
     padding: 6px 10px
 }
