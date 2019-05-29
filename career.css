@@ -144,3 +144,14 @@ body {
     border-radius: 10px;
     padding: 6px 10px
 }
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
+    padding: 5px;
+}
