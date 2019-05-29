@@ -21,7 +21,7 @@ ul:first-child {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color:grey;
   }
 
   .top_navbar {
@@ -31,7 +31,7 @@ ul:first-child {
   }
 
   img {
-      max-width: 60%;
+      max-width: auto;
       height: auto;
       
   }
@@ -72,10 +72,40 @@ ul:first-child {
   top: 30%;
   left: 30%;
   transform: translate(-30%, -30%);
+  display: flex;
   }
 
   p {
     margin-left: -290px;
     margin-right: 1000px;
+    display: flex;
   }
+
+  body { font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  img {
+      border-radius: 20px;
+      width: auto;
+ height: 350px;
+ background-size: cover;
+ display: block;
+
+  }
+
+  body {
+    background-image: url("http://lifedetermination.com/wp-content/uploads/2019/04/Dwayne_Johnson_Men_Muscle_Singlet_Glance_Bald_558796_1280x720-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  /* html { 
+    background: url(Dwayne_Johnson_1280x720-1.jpg) no-repeat center center fixed; 
+    background-size: cover;
+  } */
+
+  .collaborators
+
+  
   
