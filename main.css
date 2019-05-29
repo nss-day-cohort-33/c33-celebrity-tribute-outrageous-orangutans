@@ -51,11 +51,10 @@ ul:first-child {
     display: block;
     color: white;
     text-align: left;
-    padding: 14px 16px;
+    padding: 5px 5px;
     text-decoration: none;
     list-style-type: none;
     margin: 0;
-    padding: 14px 16px;
     overflow: hidden;
     background-color: #333;
   }
@@ -105,7 +104,78 @@ ul:first-child {
     background-size: cover;
   } */
 
-  .collaborators
+  .collaborators {
+      margin-bottom: 20px;
+      padding-bottom: 50px;
+  }
+
+  body {
+      padding-left: 15px;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  Add a hover effect if you want
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /* Instagram */
+  .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+
+  /* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    object-fit: contain;
+    margin: 5px 2px;
+  } */
+  
+/* footer a {
+width: auto;
+height: 2px;
+} */
+
 
   
-  
+
+
+  /* diplay: flex; */
+  /* flex-wrap: wrap */
+
+  footer ul{
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ footer img {
+    width: 30px;
+    height: auto;
+    padding: 5px;
+ }
