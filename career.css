@@ -1,14 +1,39 @@
-.intro {
-    border-radius: 10px;
-    background: black;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
+ul:first-child {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .top_navbar li {
+    float: left;
+  }
+  
+  .top_navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .top_navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
 
 .wrestling {
     border-radius: 10px;
-    background: lightblue;
+    background:rgb(173,216,230,.8);
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -16,7 +41,6 @@
 
 .skills {
     border-radius: 10px;
-    background: black;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -24,7 +48,7 @@
 
 .ulskills {
     border-radius: 10px;
-    background: lightblue;
+    background: rgb(173,216,230,.8);;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -34,13 +58,12 @@
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
-    background: lightblue;
+    background: rgb(173,216,230,.8);;
     border-radius: 10px;
 }
 
 .works {
     border-radius: 10px;
-    background: black;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -52,13 +75,12 @@
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-content: flex-end;
-    background: lightblue;
+    background: rgb(173,216,230,.8);;
     border-radius: 10px;
 }
 
 .lived {
     border-radius: 10px;
-    background: black;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;  
@@ -81,33 +103,55 @@ h2 {
 h1 {
     border-radius: 10px;
     background: goldenrod;
-    padding: 12px 20px;
+    padding: 35px 20px;
+}
+
+.plived {
+    background: gray;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url("https://thenypost.files.wordpress.com/2017/05/170512-money-feature.jpg?quality=90&strip=all");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .collaborators {
     border-radius: 10px;
-    background: black;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 
 .ulcollaborators {
-    background: lightblue;
+    background: rgb(173,216,230,.8);;
     border-radius: 10px;
     padding: 6px 10px;
 }
 
 .awards {
     border-radius: 10px;
-    background: black;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 
 .ulawards {
-    background: lightblue;
+    background: rgb(173,216,230,.8);;
     border-radius: 10px;
     padding: 6px 10px
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
+    padding: 5px;
 }
