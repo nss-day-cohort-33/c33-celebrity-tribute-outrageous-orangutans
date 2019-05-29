@@ -1,14 +1,113 @@
 .intro {
-    border-style: solid;
-    border-color: black;
-    background-color: gray;
+    border-radius: 10px;
+    background: black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.wrestling {
+    border-radius: 10px;
+    background: lightblue;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
 
 .skills {
-    border-style: dotted;
-    border-color: gold;
-    background-color: lightblue;
+    border-radius: 10px;
+    background: black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.ulskills {
+    border-radius: 10px;
+    background: lightblue;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.ulworks {
     display: flex;
-    justify-content: center;
-    flex-basis: grow;
+    flex-flow: row;
+    justify-content: space-evenly;
+    background: lightblue;
+    border-radius: 10px;
+}
+
+.works {
+    border-radius: 10px;
+    background: black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.ullived {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    background: lightblue;
+    border-radius: 10px;
+}
+
+.lived {
+    border-radius: 10px;
+    background: black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;  
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+h2 {
+    border-radius: 10px;
+    background: gray;
+    padding: 12px 20px;
+}
+
+h1 {
+    border-radius: 10px;
+    background: goldenrod;
+    padding: 12px 20px;
+}
+
+.collaborators {
+    border-radius: 10px;
+    background: black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.ulcollaborators {
+    background: lightblue;
+    border-radius: 10px;
+    padding: 6px 10px;
+}
+
+.awards {
+    border-radius: 10px;
+    background: black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.ulawards {
+    background: lightblue;
+    border-radius: 10px;
+    padding: 6px 10px
 }
