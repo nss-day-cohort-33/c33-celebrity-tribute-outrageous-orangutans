@@ -30,6 +30,13 @@ ul:first-child {
     width: 100%;
   }
 
+  .intro {
+    border-radius: 10px;
+    background: black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
 
 .wrestling {
     border-radius: 10px;
@@ -41,6 +48,7 @@ ul:first-child {
 
 .skills {
     border-radius: 10px;
+    background: black;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -54,12 +62,18 @@ ul:first-child {
     box-sizing: border-box;
 }
 
-.ulworks {
+
+
+/* .ulworks {
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
-    background: rgb(173,216,230,.8);;
+     background: rgb(173,216,230,.8); 
     border-radius: 10px;
+} */
+
+.hide {
+    display:none;
 }
 
 .works {
@@ -67,6 +81,23 @@ ul:first-child {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+}
+
+.h2works:hover + .ulworks {
+    /* display: block; */
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+     /* background: rgb(173,216,230,.8);  */
+    border-radius: 10px;
+}
+
+.divhide {
+    display:none;
+}
+
+.h2lived:hover + .divhide {
+    display:block;
 }
 
 .ullived {
@@ -82,6 +113,7 @@ ul:first-child {
 .lived {
     border-radius: 10px;
     padding: 12px 20px;
+    background: black;
     margin: 8px 0;
     box-sizing: border-box;  
 }
@@ -122,6 +154,7 @@ body {
 .collaborators {
     border-radius: 10px;
     padding: 12px 20px;
+    background: black;
     margin: 8px 0;
     box-sizing: border-box;
 }
@@ -135,6 +168,7 @@ body {
 .awards {
     border-radius: 10px;
     padding: 12px 20px;
+    background: black;
     margin: 8px 0;
     box-sizing: border-box;
 }
