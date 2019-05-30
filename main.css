@@ -1,151 +1,156 @@
 ul:first-child {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* .top_navbar li  {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-  }
-  
-  .top_navbar li {
-    float: left;
-  }
-  
-  .top_navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color:grey;
-  }
+  } */
 
-  .top_navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+.top_navbar li {
+  float: left;
+}
 
-  img {
-      max-width: auto;
-      height: auto;
-      
-  }
+.top_navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  ul {
-    list-style-type: square;
-  }
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: grey;
+}
 
-  h1{
-      padding-top: 40px;
-      padding-bottom: 20px;
-      margin-top: 30px;
-      margin-bottom: .5px
-  }
+.top_navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-  footer {
-    display: block;
-    color: white;
-    text-align: left;
-    padding: 5px 5px;
-    text-decoration: none;
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+img {
+  max-width: auto;
+  height: auto;
+}
 
-  footer a {
-      color: white;
-    width: 100%;
-  }
+ul {
+  list-style-type: square;
+}
+
+h1 {
+  padding-top: 40px;
+  padding: bottom 0px;
+  margin-top: 30px;
+  margin-bottom: 0.2px;
+}
+
+footer {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 5px 5px;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+footer a {
+  color: white;
+  width: 100%;
+}
+
+.top-left {
+position: absolute;
+top: 8px;
+  left: 30px; 
+  max-width: 250px;
+  /* transform: translate(-30%, -30%); */
+  /* float: left; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+
+.container {
+    position: relative;
+}
+
+/* .top-left { */
+  /* margin-left: -290px;
+  margin-right: 1000px; */
+  /* display: flex; */
 
 
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
 
-  .top-left {
-    position: absolute;
-  top: 30%;
-  left: 30%;
-  transform: translate(-30%, -30%);
-  display: flex;
-  }
+img {
+  border-radius: 20px;
+  width: auto;
+  height: 350px;
+  background-size: cover;
+  display: block;
+}
 
-  p {
-    margin-left: -290px;
-    margin-right: 1000px;
-    display: flex;
-  }
+body {
+  background-image: url("http://lifedetermination.com/wp-content/uploads/2019/04/Dwayne_Johnson_Men_Muscle_Singlet_Glance_Bald_558796_1280x720-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
-  body { font-family: 'Noto Sans KR', sans-serif;
-  }
-
-  img {
-      border-radius: 20px;
-      width: auto;
- height: 350px;
- background-size: cover;
- display: block;
-
-  }
-
-  body {
-    background-image: url("http://lifedetermination.com/wp-content/uploads/2019/04/Dwayne_Johnson_Men_Muscle_Singlet_Glance_Bald_558796_1280x720-1.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-
-  /* html { 
+/* html { 
     background: url(Dwayne_Johnson_1280x720-1.jpg) no-repeat center center fixed; 
     background-size: cover;
   } */
 
-  .collaborators {
-      margin-bottom: 20px;
-      padding-bottom: 50px;
-  }
+.collaborators {
+  margin-bottom: 10px;
+  padding-bottom: 35px;
+  /* padding-top: 0px;
+      margin-top: 0px; */
+}
 
-  body {
-      padding-left: 15px;
-  }
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  Add a hover effect if you want
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
+body {
+  padding-left: 15px;
+}
+
+Add a hover effect if you want .fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook
   .fa-facebook {
     background: #3B5998;
     color: white;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
+  } */
+
+/* Twitter */
+/* .fa-twitter {
     background: #55ACEE;
     color: white;
-  }
+  } */
 
-  /* Instagram */
-  .fa-instagram {
+/* Instagram */
+/* .fa-instagram {
         background: #125688;
         color: white;
-      }
+      } */
 
-  /* .fa {
+/* .fa {
     padding: 20px;
     font-size: 30px;
     width: 10px;
@@ -156,26 +161,76 @@ ul:first-child {
     object-fit: contain;
     margin: 5px 2px;
   } */
-  
+
 /* footer a {
 width: auto;
 height: 2px;
 } */
 
+/* diplay: flex; */
+/* flex-wrap: wrap */
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+footer img {
+  width: 30px;
+  height: auto;
+  padding: 5px;
+}
+
+ol {
+  list-style-type: circle;
+}
+
+.intro {
+  font-size: 20px;
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  font-family: monospace;
+}
+
+/* h2  {
+     font-weight: bold;
+     /* margin-bottom: 5px;
+     font-stretch: expanded;
+ } */
+
+ .Dwayne {
+    padding: 5px;
+    background-color: grey;
+    transition: transform .2s;
+    /* width: 200px;
+    height: 200px; */
+    /* margin: 0 auto; */
+  }
+  
+  img:hover {
+    transform: scale(1.5); 
+  }
+
+  .dropdown {
+    position: relative;
+    /* display: inline-block; */
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
   
 
-
-  /* diplay: flex; */
-  /* flex-wrap: wrap */
-
-  footer ul{
-    display: flex;
-    flex-direction: row;
- }
- 
- footer img {
-    width: 30px;
-    height: auto;
-    padding: 5px;
- }
+  
