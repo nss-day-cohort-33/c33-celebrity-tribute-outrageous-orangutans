@@ -21,7 +21,7 @@ ul:first-child {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color:grey;
   }
 
   .top_navbar {
@@ -31,7 +31,7 @@ ul:first-child {
   }
 
   img {
-      max-width: 60%;
+      max-width: auto;
       height: auto;
       
   }
@@ -51,11 +51,10 @@ ul:first-child {
     display: block;
     color: white;
     text-align: left;
-    padding: 14px 16px;
+    padding: 5px 5px;
     text-decoration: none;
     list-style-type: none;
     margin: 0;
-    padding: 14px 16px;
     overflow: hidden;
     background-color: #333;
   }
@@ -64,4 +63,119 @@ ul:first-child {
       color: white;
     width: 100%;
   }
+
+
+
+  .top-left {
+    position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-30%, -30%);
+  display: flex;
+  }
+
+  p {
+    margin-left: -290px;
+    margin-right: 1000px;
+    display: flex;
+  }
+
+  body { font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  img {
+      border-radius: 20px;
+      width: auto;
+ height: 350px;
+ background-size: cover;
+ display: block;
+
+  }
+
+  body {
+    background-image: url("http://lifedetermination.com/wp-content/uploads/2019/04/Dwayne_Johnson_Men_Muscle_Singlet_Glance_Bald_558796_1280x720-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  /* html { 
+    background: url(Dwayne_Johnson_1280x720-1.jpg) no-repeat center center fixed; 
+    background-size: cover;
+  } */
+
+  .collaborators {
+      margin-bottom: 20px;
+      padding-bottom: 50px;
+  }
+
+  body {
+      padding-left: 15px;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
   
+  Add a hover effect if you want
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /* Instagram */
+  .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+
+  /* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    object-fit: contain;
+    margin: 5px 2px;
+  } */
+  
+/* footer a {
+width: auto;
+height: 2px;
+} */
+
+
+  
+
+
+  /* diplay: flex; */
+  /* flex-wrap: wrap */
+
+  footer ul{
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ footer img {
+    width: 30px;
+    height: auto;
+    padding: 5px;
+ }
