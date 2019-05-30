@@ -1,20 +1,68 @@
-
-.navLink{
-    display: flex;
-    /* flex-direction: row; */
-    width: 200px;
-    height: 50px; 
+.navLink {
+  display: flex;
+  background-color: black;
+  margin: auto;
 }
 
-.navLink li a {
-    flex-direction: row;
-    min-width: 100px;
-    height: 50px;
-    /* background-color: black; */
-    /* color: white; */
+li a {
+  display: flex;
+  flex-direction: row;
+  min-width: 100px;
+  height: 25px;
+  margin: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+body {
+  background-image: url("https://cdn.pursuitist.com/wp-content/uploads/2013/12/rock1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid black;
+  margin: auto;
+}
+
+.personal p {
+  color: white;
+  font-size: 35px;
+  background-color: black;
+  margin-top: 10px;
+  font-family: cursive;
+  
+}
+
+
+.family p {
+  visibility: hidden;
+}
+
+.family a:hover p {
+  display: inline-block;
+  margin: 0px;
+  border-radius: 50px;
+  color: white;
+  background-color: black;
+  font-size: 1.5em;
+  padding: 10px 15px;
+  width: 50%;
+  height: 50%;
+  font-family: cursive;
+  visibility: visible;
+  vertical-align: top;
+}
+
+h2 {
+  text-align: center;
+  color: white;
 }
 
 img {
-    width: 100px;
-    height: 100px;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+img:hover {
+  width: 400px;
+  height: 400px;
 }
