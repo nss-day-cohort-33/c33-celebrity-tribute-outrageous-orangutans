@@ -4,7 +4,6 @@
   margin: auto;
 }
 
-
 li a {
   display: flex;
   flex-direction: row;
@@ -33,7 +32,7 @@ body {
   background-color: black;
   margin-top: 0px;
   border-radius: 20px;
-  font-family: cursive;
+  font-family: cursive, sans-serif;
   border: 3px solid bisque;
 }
 
@@ -51,7 +50,7 @@ body {
   padding: 10px 15px;
   width: 50%;
   height: 50%;
-  font-family: cursive;
+  font-family: cursive, sans-serif;
   visibility: visible;
   vertical-align: top;
 }
@@ -74,6 +73,16 @@ img:hover {
   height: 400px;
 }
 
+footer .button {
+  align-items: center;
+  height: 40px;
+  width: 35px;
+  border: 0px;
+  border-radius: 25%;
+}
 
- 
-
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+}
